@@ -129,6 +129,8 @@ Creating and starting a Thread
 
 ### Combining Results with reduce()
 
+### Combining Results with collect()
+
 
 
 
