@@ -107,6 +107,8 @@ Creating and starting a Thread
 
 ## Identifying Threading Problems
 
+### Understanding Liveness
+
 
 
 
