@@ -98,9 +98,9 @@ Main method finished!
 Thread finished!
 
 ```
-
+Change for deamon
 ```java
-System.out.println(“Thread finished !”);
+     var job = Thread.ofPlatform().daemon(true).start(Zoo::pause);
 ```
 
 
