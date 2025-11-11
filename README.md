@@ -131,6 +131,14 @@ try (ExecutorService service = Executors.newSingleThreadExecutor()) {
 
 ### Submitting Tasks
 
+| Method Name | Description |
+|-------------|-------------|
+| `void execute(Runnable command)` | Executes Runnable task at some point in future. |
+| `Future<?> submit(Runnable task)` | Executes Runnable task at some point in future and returns Future representing task. |
+| `<T> Future<T> submit(Callable<T> task)` | Executes Callable task at some point in future and returns Future representing pending results of task. |
+| `<T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks)` | Executes given tasks and waits for all tasks to complete. Returns List of Future instances in the same order in which they were in original collection. |
+| `<T> T invokeAny(Collection<? extends Callable<T>> tasks)` | Executes given tasks and waits for at least one to complete. |
+
 ### Waiting for Results
 
 ### Investigating Callable
