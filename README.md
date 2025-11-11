@@ -16,7 +16,7 @@ By contrast, when we go to a restaurant, there is a server who is assigned to ma
 
 ### Understanding Thread Concurrency
 
-The property of executing multiple threads and processes at the same time is referred to as concurrency. A thread scheduler determines which threads should be currently executing. For example, a thread scheduler may employ a round-robin schedule in which each available thread receives an equal number of CPU cycles with which to execute, with threads visited in a circular order.
+A thread scheduler may employ a round-robin schedule in which each available thread receives an equal number of CPU cycles with which to execute, with threads visited in a circular order.
 
 When a thread’s allotted time is complete but the thread has not finished processing, a context switch occurs. A context switch is the process of storing a thread’s current state and later restoring the state of the thread to continue execution. Since there’s a cost to context switch due to lost time and having to reload a thread’s state, intelligent thread schedulers do their best to minimize the number of context switches while keeping an application running smoothly.
 
