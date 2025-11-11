@@ -131,6 +131,8 @@ Creating and starting a Thread
 
 ### Combining Results with collect()
 
+### Performing a Parallel Reduction on a Collector
+
 
 
 
