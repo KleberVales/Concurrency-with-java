@@ -40,6 +40,16 @@ thread2.setPriority(2);
 
 ### Creating a Thread
 
+- Runnable interface
+
+```java
+
+@FunctionalInterface public interface Runnable {
+     void run();
+}
+
+```
+
 
 
 
