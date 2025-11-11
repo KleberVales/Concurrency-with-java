@@ -106,6 +106,9 @@ Change for deamon
 
 ### Managing a Thread’s Life Cycle
 
+<img width="981" height="541" alt="Captura de tela 2025-11-11 143554" src="https://github.com/user-attachments/assets/62f8e543-a6c1-484a-8556-fc6f1b236345" />
+
+
 ## Creating Threads with the Concurrency API
 
 ### Introducing the Single-Thread Executor
