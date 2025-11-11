@@ -103,6 +103,8 @@ Creating and starting a Thread
 
 ### Working with Concurrent Classes
 
+### Obtaining Synchronized Collections
+
 
 
 
