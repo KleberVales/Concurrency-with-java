@@ -21,3 +21,28 @@ The property of executing multiple threads and processes at the same time is ref
 When a thread’s allotted time is complete but the thread has not finished processing, a context switch occurs. A context switch is the process of storing a thread’s current state and later restoring the state of the thread to continue execution. Since there’s a cost to context switch due to lost time and having to reload a thread’s state, intelligent thread schedulers do their best to minimize the number of context switches while keeping an application running smoothly.
 
 Finally, a thread can interrupt or supersede another thread if it has a higher thread priority. A thread priority is a numeric value associated with a thread that the thread scheduler considers when determining which threads should execute. The priority can be set from 1 (Thread.MIN_PRIORITY) to 10 (Thread.MAX_PRIORITY), either before a thread is started or while it is running.
+
+```java
+
+var thread1 = new Thread(() -> System.out.print("Super Important"));
+thread1.setPriority(Thread.MAX_PRIORITY);
+thread1.start();
+
+```
+
+```java
+
+var thread2 = new Thread(() -> System.out.print("Less Important"));
+thread2.start();
+thread2.setPriority(2);
+
+```
+
+
+
+
+
+
+
+
+
