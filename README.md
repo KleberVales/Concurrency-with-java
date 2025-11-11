@@ -119,6 +119,8 @@ Creating and starting a Thread
 
 ## Working with Parallel Streams
 
+### Creating Parallel Streams
+
 
 
 
