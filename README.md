@@ -111,7 +111,23 @@ Change for deamon
 
 ## Creating Threads with the Concurrency API
 
+The Concurrency API includes the ExecutorService interface, which defines services that create and manage threads.
+
 ### Introducing the Single-Thread Executor
+
+Since ExecutorService is an interface, how do you obtain an instance of it? The Concurrency API includes the Executors factory class that can be used to create instances of the ExecutorService object.
+
+```java
+
+try (ExecutorService service = Executors.newSingleThreadExecutor()) {
+      System.out.println("begin");
+      service.execute(printInventory);
+      service.execute(printRecords);
+      service.execute(printInventory);
+      System.out.println("end");
+}
+
+```
 
 ### Submitting Tasks
 
