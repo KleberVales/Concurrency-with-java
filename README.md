@@ -91,6 +91,8 @@ Creating and starting a Thread
 
 ### Protecting Data with Atomic Classes
 
+### Improving Access with synchronized Blocks
+
 
 
 
