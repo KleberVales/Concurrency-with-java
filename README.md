@@ -67,6 +67,32 @@ Creating and starting a Thread
 
 ### Working with Daemon Threads
 
+A daemon thread is one that will not prevent the JVM from exiting when the program finishes.
+
+Let’s take a look at an example. What do you think this outputs?
+
+```java
+
+public class Zoo {
+    public static void pause() { //
+        Defines the thread task
+        try {
+            Thread.sleep(10_000); //
+            Wait for 10 seconds
+        } catch (InterruptedException e) {
+        }
+        System.out.println(“Thread finished !”);
+    }
+
+    public static void main(String[] unused) {
+        var job =
+                Thread.ofPlatform().start(Zoo::pause);
+        System.out.println(“Main method finished !”);
+    }
+}
+
+```
+
 ### Managing a Thread’s Life Cycle
 
 ## Creating Threads with the Concurrency API
