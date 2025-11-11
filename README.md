@@ -93,6 +93,8 @@ Creating and starting a Thread
 
 ### Improving Access with synchronized Blocks
 
+### Synchronizing Methods
+
 
 
 
