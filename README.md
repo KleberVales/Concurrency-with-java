@@ -123,6 +123,8 @@ Creating and starting a Thread
 
 ### Performing a Parallel Decomposition
 
+### Processing Parallel Reductions
+
 
 
 
