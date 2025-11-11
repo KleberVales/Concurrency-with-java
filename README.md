@@ -13,3 +13,5 @@
 Platform threads are often inefficient. They are like having a personal butler who stands around in case you need something. If you constantly need things, this is a good use of the butler’s time. For a platform thread to be efficient, you need to be heavily using the CPU. 
 
 By contrast, when we go to a restaurant, there is a server who is assigned to many tables. Since we don’t need someone to stand there while the food is cooking and when we eat, this is a more efficient use of the server’s time. The Java equivalent of a single server handling multiple tables is a carrier thread. The tables correspond to virtual threads, which are less resource intensive than platform threads, making virtual threads a good choice when you expect to wait for I/O or network resources.
+
+### Understanding Thread Concurrency
