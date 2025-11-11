@@ -131,6 +131,10 @@ try (ExecutorService service = Executors.newSingleThreadExecutor()) {
 
 ### Submitting Tasks
 
+You can submit tasks to an ExecutorService instance multiple ways.
+
+shows the five methods, including execute() and two submit() methods, that you should know for the exam.
+
 | Method Name | Description |
 |-------------|-------------|
 | `void execute(Runnable command)` | Executes Runnable task at some point in future. |
