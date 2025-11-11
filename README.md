@@ -65,6 +65,8 @@ Creating and starting a Thread
 | `var builder = Thread.ofVirtual();`<br>`Thread thread = builder.start(runnable);` | Virtual | Factory |
 | `Thread thread = new Thread(runnable);`<br>`thread.start();` | Platform | Constructor |
 
+### Working with Daemon Threads
+
 
 
 
