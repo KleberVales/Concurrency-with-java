@@ -44,9 +44,17 @@ thread2.setPriority(2);
 
 ```java
 
-@FunctionalInterface public interface Runnable {
+@FunctionalInterface
+public interface Runnable {
      void run();
 }
+
+```
+
+```java
+
+Thread.ofPlatform().start(() -> System.out.print("Hello"));
+System.out.print("World");
 
 ```
 
