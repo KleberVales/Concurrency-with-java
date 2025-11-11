@@ -117,6 +117,8 @@ Creating and starting a Thread
 
 ### Managing Race Conditions
 
+## Working with Parallel Streams
+
 
 
 
