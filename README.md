@@ -127,6 +127,8 @@ Creating and starting a Thread
 
 ### Performing Order-Based Tasks
 
+### Combining Results with reduce()
+
 
 
 
