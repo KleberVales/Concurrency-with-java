@@ -67,6 +67,8 @@ Creating and starting a Thread
 
 ### Working with Daemon Threads
 
+### Managing a Thread’s Life Cycle
+
 
 
 
