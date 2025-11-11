@@ -95,6 +95,8 @@ Creating and starting a Thread
 
 ### Synchronizing Methods
 
+### Understanding the Lock Framework
+
 
 
 
