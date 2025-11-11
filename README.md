@@ -69,6 +69,8 @@ Creating and starting a Thread
 
 ### Managing a Thread’s Life Cycle
 
+## Creating Threads with the Concurrency API
+
 
 
 
