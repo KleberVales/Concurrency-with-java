@@ -99,6 +99,8 @@ Creating and starting a Thread
 
 ## Using Concurrent Collections
 
+### Understanding Memory Consistency Errors
+
 
 
 
