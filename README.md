@@ -74,24 +74,35 @@ Let’s take a look at an example. What do you think this outputs?
 ```java
 
 public class Zoo {
-    public static void pause() { //
-        Defines the thread task
+    public static void pause() { // Defines the thread task
         try {
-            Thread.sleep(10_000); //
-            Wait for 10 seconds
+            Thread.sleep(10_000); // Wait for 10 seconds
         } catch (InterruptedException e) {
+            System.out.println(“Thread finished !”);
         }
-        System.out.println(“Thread finished !”);
+        
     }
 
     public static void main(String[] unused) {
-        var job =
-                Thread.ofPlatform().start(Zoo::pause);
+        var job = Thread.ofPlatform().start(Zoo::pause);
         System.out.println(“Main method finished !”);
     }
 }
 
 ```
+
+```bash
+
+Main method finished!
+< 10 second wait >
+Thread finished!
+
+```
+
+```java
+System.out.println(“Thread finished !”);
+```
+
 
 ### Managing a Thread’s Life Cycle
 
