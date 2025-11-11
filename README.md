@@ -87,6 +87,8 @@ Creating and starting a Thread
 
 ## Writing Thread-Safe Code
 
+### Understanding Thread-Safety
+
 
 
 
