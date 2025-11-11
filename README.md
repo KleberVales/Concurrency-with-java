@@ -58,6 +58,13 @@ System.out.print("World");
 
 ```
 
+Creating and starting a Thread
+| Code | Type | Description |
+|------|------|-------------|
+| `var builder = Thread.ofPlatform();`<br>`Thread thread = builder.start(runnable);` | Platform | Factory |
+| `var builder = Thread.ofVirtual();`<br>`Thread thread = builder.start(runnable);` | Virtual | Factory |
+| `Thread thread = new Thread(runnable);`<br>`thread.start();` | Platform | Constructor |
+
 
 
 
