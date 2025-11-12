@@ -22,6 +22,8 @@
 ### Scheduling Tasks
 ### Increasing Concurrency with Pools
 
+---
+
 ## Writing Thread-Safe Code
 
 ### Understanding Thread-Safety
@@ -34,6 +36,8 @@
 
 ### Orchestrating Tasks with a CyclicBarrier
 
+---
+
 ## Using Concurrent Collections
 
 ### Understanding Memory Consistency Errors
@@ -41,6 +45,8 @@
 ### Working with Concurrent Classes
 
 ### Obtaining Synchronized Collections
+
+---
 
 ## Identifying Threading Problems
 
@@ -53,6 +59,8 @@
 ### Livelock
 
 ### Managing Race Conditions
+
+---
 
 ## Working with Parallel Streams
 
