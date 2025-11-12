@@ -1,13 +1,6 @@
 # Concurrency-with-java
 
 ## Introducing Threads
-
-- A thread is the smallest unit of execution that can be scheduled by the operating system.
-- A process is a group of associated threads that execute in the same shared environment.
-- It follows, then, that a single- threaded process is one that contains exactly one thread, whereas a multithreaded process contains one or more threads.
-- By shared environment, we mean that the threads in the same process share the same memory space and can communicate directly with one another.
-- A task is a single unit of work performed by a thread. A thread can complete multiple independent tasks but only one task at a time.
-
 ### Comparing to Virtual Threads
 
 Platform threads are often inefficient. They are like having a personal butler who stands around in case you need something. If you constantly need things, this is a good use of the butler’s time. For a platform thread to be efficient, you need to be heavily using the CPU. 
