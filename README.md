@@ -1,5 +1,7 @@
 # Concurrency-with-java
 
+---
+
 ## Introducing Threads
 
 ### Comparing to Virtual Threads
@@ -7,6 +9,8 @@
 ### Creating a Thread
 ### Working with Daemon Threads
 ### Managing a Thread’s Life Cycle
+
+---
 
 ## Creating Threads with the Concurrency API
 
