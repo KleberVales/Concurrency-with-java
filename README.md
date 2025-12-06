@@ -78,6 +78,9 @@
 
 ### Performing a Parallel Reduction on a Collector
 
+---
+
+kleber vales
 
 
 
