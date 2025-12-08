@@ -82,7 +82,6 @@
 
 kleber vales
 
-Java & Spring Software Engineer 
 
 
 
