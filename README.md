@@ -76,4 +76,4 @@
 
 ### Combining Results with collect()
 
-### Performing a Parallel Reduction
+### Performing a Parallel 
