@@ -76,16 +76,4 @@
 
 ### Combining Results with collect()
 
-### Performing a Parallel Reduction on a Collector
-
----
-
-
-
-
-
-
-
-
-
-
+### Performing a Parallel Reduction
