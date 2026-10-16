@@ -70,4 +70,4 @@
 
 ### Processing Parallel Reductions
 
-### Performing Order
+### Performing 
