@@ -67,5 +67,3 @@
 ### Creating Parallel Streams
 
 ### Performing a Parallel Decomposition
-
-### Processing
