@@ -72,6 +72,4 @@
 
 ### Performing Order-Based Tasks
 
-### Combining Results with reduce()
-
-
+### Combining Results with 
