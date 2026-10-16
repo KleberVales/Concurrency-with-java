@@ -68,5 +68,4 @@
 
 ### Performing a Parallel Decomposition
 
-### Processing Parallel
-
+### Processing
