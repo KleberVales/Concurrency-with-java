@@ -62,4 +62,4 @@
 
 ---
 
-## Working with Parallel Streams
+## Working with Parallel
