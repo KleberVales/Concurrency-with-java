@@ -64,5 +64,5 @@
 
 ## Working with Parallel Streams
 
-### Creating Parallel Streams
+### Creating Parallel
 
