@@ -66,4 +66,3 @@
 
 ### Creating Parallel Streams
 
-### Performing
