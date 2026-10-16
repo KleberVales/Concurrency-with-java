@@ -71,5 +71,3 @@
 ### Processing Parallel Reductions
 
 ### Performing Order-Based Tasks
-
-### Combining
