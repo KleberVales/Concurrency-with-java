@@ -70,4 +70,3 @@
 
 ### Processing Parallel Reductions
 
-### Performing 
