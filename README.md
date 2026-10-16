@@ -72,4 +72,4 @@
 
 ### Performing Order-Based Tasks
 
-### Combining Results 
+### Combining
