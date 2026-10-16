@@ -74,6 +74,6 @@
 
 ### Combining Results with reduce()
 
-### Combining Results 
+### Combining
 
 
